@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primaryFont: 'Ubuntu', sans-serif;
+    --secondaryFont: 'Abril Fatface', serif;
+    --thirdFont:  'Open Sans', sans-serif;
+    --primaryColor: #0f2f44;
+    --yellowColor: #ffc712;
+    --purpleColor: #8484bf;
+    --bannerHeight: 600px;
+  }
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.button{
+   
+    font-family: var(--mainfont);
+    font-weight: 500;
+    color: var(--primarycolor);
+    font-size: 20px;
+    padding: 16px 21px;
+    background-color: var(--yellowcolor);
+    display: inline-block;
+    border-radius: 6px;
+
+}
+body{
+    font-family: var(--primaryFont);
+}
+
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/* *COMMON CSS ENDS */
+
+
+/* *HEADER STARTS HERE */
+header{
+    padding: 19px 0;
+    background-color: var(--primaryColor);
+    color: white;
+}
+header .opening,
+header .welcome {
+    width: 50%;
+}
+
+
+
+header .opening{
+    text-align: right;
+}
+
+/* *HEADER ENDS HERE */
+
+
+/* *NAVBAR */
+nav .logo{
+    width: 30%;
+}
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+
+nav .menu ul li {
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    font-weight: 500;
+    color: #222;
+    font-size: 16px;
+    padding: 40px 19px;
+    display: block;
+    transition: 0.3s;
+}
+nav .menu ul li:hover a{
+    color: var(--yellowColor);
+    background-color: #fff9e6;
+}
+
+nav .menu ul li span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #888;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+/* *NAVBAR ENDS */
+
+
+/* *BANNER STARTS HERE */
+#banner{
+    background-image: url(../images/Bizzency\ copy.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_cnt{
+    width: 40%;
+    padding: 142px 0;
+}
+
+.banner_cnt h4{
+    font-weight: 300;
+    font-size: 50px;
+    color: var(--primaryColor);
+}
+
+.banner_cnt h1{
+    font-family: var(--secondaryFont);
+    font-weight: 400;
+     font-size: 80px;
+     line-height: 65px;
+    text-transform: uppercase;
+    color: var(--primaryColor);
+
+}
+
+
+.banner_cnt h5{
+    color: var(--purpleColor);
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 10px;
+}
+
+.banner_cnt p{
+    font-family: var(--thirdFont);
+    color: #444;
+    font-size: 14px;
+    margin: 33px 0;
+}
+.banner_cnt a{
+    color: white;
+    background-color: var(--purpleColor);
+}
+.banner_cnt a span{
+    padding: 10px 15px;
+    border-radius: 60%;
+    font-size: 20px;
+    /* margin-left: 15px; */
+    color: #8484bf;
+    background-color: white;
+    display: inline-block;
+}
+
+/* *BANNER ENDS HERE */
